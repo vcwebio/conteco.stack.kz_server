@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+export CONTECO_LABEL="stack.kz_server - ContEco"
+export CONTECO_DESCRIPTION="KZ Server stack image, consisting of Kafka Server and Zookeeper."
+
+export CONTECO_TYPE="stack"
+export CONTECO_NAME="kz_server"
+export CONTECO_TAG="v1.0.0"
+
+export CONTECO_BASE="image.wrapper"
+export CONTECO_BUILD="image"
